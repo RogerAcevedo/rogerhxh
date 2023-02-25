@@ -13,6 +13,7 @@ import { Container, Row, Col } from "react-bootstrap"
 // ? BOOTSTRAP ICONS IMPORTS
 import { FaArrowCircleRight } from 'react-icons/fa';
 
+// test
 
 
 export const Banner = () => {
