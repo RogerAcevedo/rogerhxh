@@ -30,15 +30,16 @@ export const Projects = () => {
             imgUrl: projImg1,
         },
         {
-            title: "Rogerhxh Test",
-            description: "A dynamic portfolio  website  that allows individuals or companies to showcase their work and skills in a visually appealing and interactive way.",
-            imgUrl: projImg2,
-        },
-        {
             title: "Kick-Off Kicks ",
             description: "An e-commerce website designed with JavaScript, HTML, and CSS is a frontend-only platform designed to provide users with a seamless online shopping experience.",
             imgUrl: projImg3,
         },
+        {
+            title: "Rogerhxh Test",
+            description: "A dynamic portfolio  website  that allows individuals or companies to showcase their work and skills in a visually appealing and interactive way.",
+            imgUrl: projImg2,
+        },
+
         {
             title: "Zero Football",
             description: "An online soccer app developed using the Scorebat API is a platform that provides users with up-to-date information on soccer matches worldwide.",

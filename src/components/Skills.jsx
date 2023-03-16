@@ -41,8 +41,8 @@ import Mysqlbench from "../assets/img/mysqlbenchlogo.png"
 
 
 export const Skills = () => {
-// CAROUSEL DEFAULT 
-const responsive = {
+  // CAROUSEL DEFAULT 
+  const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
@@ -65,109 +65,109 @@ const responsive = {
   // !LANGUAGES
   const languages = [
     {
-    id:1,
-    img: Java,
-    title: "Java"
+      id: 1,
+      img: Java,
+      title: "Java"
     },
     {
-      id:2,
+      id: 2,
       img: Javascript,
       title: "Javascript"
     },
-    
+
     {
-      id:3,
+      id: 3,
       img: Python,
       title: "Python"
     },
     {
-      id:4,
+      id: 4,
       img: Html,
       title: "HTML"
     },
     {
-      id:5,
+      id: 5,
       img: Css,
       title: "CSS"
     },
     {
-      id:6,
+      id: 6,
       img: Flask,
       title: "Flask"
-      },
-      {
-        id:7,
-        img: Jinja,
-        title: "Jinja"
-      },
-      
-      {
-        id:8,
-        img: Reactlogo,
-        title: "React.js"
-      },
-      {
-        id:9,
-        img: Node,
-        title: "Node.js"
-      },
-      {
-        id:10,
-        img: Bootstraplogo,
-        title: "Bootstrap"
-      },
-      {
-        id:11,
-        img: Spring,
-        title: "Spring"
-      },
-      {
-          id:12,
-          img: Restapi,
-          title: "Rest API"
-          },
-          {
-            id:13,
-            img: Github,
-            title: "Github"
-          },
-          
-          {
-            id:14,
-            img: Gitlab,
-            title: "Gitlab"
-          },
-          {
-            id:15,
-            img: Json,
-            title: "Json"
-          },
-          {
-            id:16,
-            img: Mysqlbench,
-            title: "MySQL Workbench"
-          },
-          {
-            id:17,
-            img: Postman,
-            title: "Postman"
-          },
-          {
-            id:18,
-            img: Mongo,
-            title: "MongoDB"
-            },
-            {
-              id:19,
-              img: Mongoose,
-              title: "Mongoose"
-            },
-            
-            {
-              id:20,
-              img: Mysql,
-              title: "MySQL"
-            },
+    },
+    {
+      id: 7,
+      img: Jinja,
+      title: "Jinja"
+    },
+
+    {
+      id: 8,
+      img: Reactlogo,
+      title: "React.js"
+    },
+    {
+      id: 9,
+      img: Node,
+      title: "Node.js"
+    },
+    {
+      id: 10,
+      img: Bootstraplogo,
+      title: "Bootstrap"
+    },
+    {
+      id: 11,
+      img: Spring,
+      title: "Spring"
+    },
+    {
+      id: 12,
+      img: Restapi,
+      title: "Rest API"
+    },
+    {
+      id: 13,
+      img: Github,
+      title: "Github"
+    },
+
+    {
+      id: 14,
+      img: Gitlab,
+      title: "Gitlab"
+    },
+    {
+      id: 15,
+      img: Json,
+      title: "Json"
+    },
+    {
+      id: 16,
+      img: Mysqlbench,
+      title: "MySQL Workbench"
+    },
+    {
+      id: 17,
+      img: Postman,
+      title: "Postman"
+    },
+    {
+      id: 18,
+      img: Mongo,
+      title: "MongoDB"
+    },
+    {
+      id: 19,
+      img: Mongoose,
+      title: "Mongoose"
+    },
+
+    {
+      id: 20,
+      img: Mysql,
+      title: "MySQL"
+    },
   ]
 
   // //! FRAMEWORKS/LIBRARIES
@@ -182,7 +182,7 @@ const responsive = {
   //     img: Jinja,
   //     title: "Jinja"
   //   },
-    
+
   //   {
   //     id:8,
   //     img: Reactlogo,
@@ -205,88 +205,123 @@ const responsive = {
   //   },
   // ]
 
-    //! FRAMEWORKS/LIBRARIES
-    // const databases = [
-    //   {
-    //   id:6,
-    //   img: Mongo,
-    //   title: "MongoDB"
-    //   },
-    //   {
-    //     id:7,
-    //     img: Mongoose,
-    //     title: "Mongoose"
-    //   },
-      
-    //   {
-    //     id:8,
-    //     img: Mysql,
-    //     title: "MySQL"
-    //   },
-    // ]
+  //! FRAMEWORKS/LIBRARIES
+  // const databases = [
+  //   {
+  //   id:6,
+  //   img: Mongo,
+  //   title: "MongoDB"
+  //   },
+  //   {
+  //     id:7,
+  //     img: Mongoose,
+  //     title: "Mongoose"
+  //   },
 
-    // //! TOOLS
-    // const tools = [
-    //   {
-    //   id:12,
-    //   img: Restapi,
-    //   title: "Rest API"
-    //   },
-    //   {
-    //     id:13,
-    //     img: Github,
-    //     title: "Github"
-    //   },
-      
-    //   {
-    //     id:14,
-    //     img: Gitlab,
-    //     title: "Gitlab"
-    //   },
-    //   {
-    //     id:15,
-    //     img: Json,
-    //     title: "Json"
-    //   },
-    //   {
-    //     id:16,
-    //     img: Mysqlbench,
-    //     title: "MySQL Workbench"
-    //   },
-    //   {
-    //     id:17,
-    //     img: Postman,
-    //     title: "Postman"
-    //   },
-    // ]
+  //   {
+  //     id:8,
+  //     img: Mysql,
+  //     title: "MySQL"
+  //   },
+  // ]
+
+  // //! TOOLS
+  // const tools = [
+  //   {
+  //   id:12,
+  //   img: Restapi,
+  //   title: "Rest API"
+  //   },
+  //   {
+  //     id:13,
+  //     img: Github,
+  //     title: "Github"
+  //   },
+
+  //   {
+  //     id:14,
+  //     img: Gitlab,
+  //     title: "Gitlab"
+  //   },
+  //   {
+  //     id:15,
+  //     img: Json,
+  //     title: "Json"
+  //   },
+  //   {
+  //     id:16,
+  //     img: Mysqlbench,
+  //     title: "MySQL Workbench"
+  //   },
+  //   {
+  //     id:17,
+  //     img: Postman,
+  //     title: "Postman"
+  //   },
+  // ]
 
   return (
     <section className="skill" id="skills">
-        <Container>
-            <Row>
-                <Col>
-                    <div className="skill-box">
-                        
-                        <h2>
-                            Technical Skills:
-                        </h2>
-                        {/* <div>
-                          <h3>Languages: <p>Java, Python, JavaScript(ES6), HTML, CSS </p></h3>
-                          <h3>Frameworks/Libraries: <p>Flask, Jinja2, React, Node.js, Express, bootstrap, Spring</p>  </h3>
-                          <h3>Databases: <p> MySQL, MongoDB, Mongoose</p> </h3>
-                          <h3>Tools: <p>AWS(EC2), REST API, JSON, PostMan, MySQL Workbench, Github, VS Code, Github, Net </p></h3>
-                        </div> */}
-                        <h4>Languages, Tools & Libraries</h4>
-                        <div id="logos">
-                        {languages.map((language) => (
-                          <div key={language.id}>
-                            <img src={language.img} alt="Image" />
-                            <h6>{language.title}</h6>
-                          </div>
-                        ))}
-                        </div>
+      <Container>
+        <Row>
+          <Col>
+            <div className="skill-box">
 
-                        {/* <h4>Database:</h4>
+              <h2>
+                Technical Skills:
+              </h2>
+              
+              <div>
+                <h3>Languages: <p>Java, Python, JavaScript(ES6), HTML, CSS </p></h3>
+                <h3>Frameworks/Libraries: <p>Flask, Jinja2, React, Node.js, Express, bootstrap, Spring</p>  </h3>
+                <h3>Databases: <p> MySQL, MongoDB, Mongoose</p> </h3>
+                <h3>Tools: <p>AWS(EC2), REST API, JSON, PostMan, MySQL Workbench, Github, VS Code, Github, Net </p></h3>
+              </div>
+              {/* <h4>Languages, Tools & Libraries</h4> */}
+              <br></br>
+              <Carousel responsive={responsive} infinite={true} className="skill-slider" autoPlay={true} autoPlaySpeed={1000} >
+                {languages.map((language) => (
+                  <div key={language.id} className="item">
+                    <img src={language.img} alt="Image" />
+                    <h6>{language.title}</h6>
+                  </div>
+                ))}
+              </Carousel>
+              
+
+              
+              {/* CAROUSEL LOGIC */}
+              {/* <Carousel responsive={responsive} infinite={true} className="skill-slider" autoPlay={true} autoPlaySpeed={2000}>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Web Development</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Project Management </h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Database Master </h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Businesses Expert </h5>
+                </div>
+              </Carousel> */}
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <img src={colorSharp} className="background-image-left" alt="" />
+    </section>
+
+  )
+}
+
+export default Skills;
+
+{/* <h4>Database:</h4>
                         <div id="logos3">
                         {databases.map((datebase) => (
                           <div key={datebase.id}>
@@ -316,34 +351,3 @@ const responsive = {
                         ))}
                         </div>
                          */}
-                        
-                        {/* CAROUSEL LOGIC */}
-                        <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Project Management </h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Database Master </h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Businesses Expert </h5>
-                            </div>
-                        </Carousel>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
-        <img src={colorSharp} className="background-image-left" alt="" />
-    </section>
-
-  )
-}
-
-export default Skills; 

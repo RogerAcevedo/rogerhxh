@@ -24,13 +24,13 @@
   .skill h6 {
     color: #B8B8B8;
   }
-  /* .skill p {
+  .skill p {
       color: #B8B8B8;
       font-size: 18px;
       letter-spacing: 0.8px;
       line-height: 1.5em;
-      margin: 14px 0 75px 0;
-  } */
+      
+  }
   .skill-slider {
     width: 80%;
     margin: 0 auto;
