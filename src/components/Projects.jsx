@@ -4,12 +4,12 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
 
 // // ? IMPORT IMAGES
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img4.png";
-import projImg5 from "../assets/img/project-img5.png";
-import projImg6 from "../assets/img/project-img6.png";
+import projImg1 from "../assets/img/project-img1.gif";
+import projImg2 from "../assets/img/project-img2.gif";
+import projImg3 from "../assets/img/project-img3.gif";
+import projImg4 from "../assets/img/project-img4.gif";
+import projImg5 from "../assets/img/project-img5.gif";
+import projImg6 from "../assets/img/project-img6.gif";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 // // ? IMPORT ANIMATE CSS
@@ -25,34 +25,34 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "Mission Hills Smokeshop",
-            description: "A smokeshop business website developed with React is a modern and user-friendly online platform designed to cater to the needs of customers who are interested in purchasing smoking accessories",
+            title: "Modern Electrician Website",
+            description: "Welcome to our cutting-edge electrician website built with React, JavaScript, HTML, and CSS. Discover a seamless user experience and explore our range of modern electrical services, powered by the latest web technologies.",
             imgUrl: projImg1,
         },
         {
-            title: "Kick-Off Kicks ",
-            description: "An e-commerce website designed with JavaScript, HTML, and CSS is a frontend-only platform designed to provide users with a seamless online shopping experience.",
+            title: "OP Chess ",
+            description: "Immerse yourself in the world of chess with our interactive chessboard. Experience the thrill of moving draggable pieces on a visually captivating board, brought to life through JavaScript, HTML, and CSS.",
             imgUrl: projImg3,
         },
         {
-            title: "Rogerhxh Test",
-            description: "A dynamic portfolio  website  that allows individuals or companies to showcase their work and skills in a visually appealing and interactive way.",
+            title: "Who is that Pokemon?",
+            description: "Embark on a nostalgic journey with our captivating memory card game, where you can match your favorite Pokémon characters. Powered by JavaScript, HTML, and CSS, and fueled by the Pokémon API, this game will test your memory skills while indulging your Pokémon passion.",
             imgUrl: projImg2,
         },
 
         {
-            title: "Zero Football",
-            description: "An online soccer app developed using the Scorebat API is a platform that provides users with up-to-date information on soccer matches worldwide.",
+            title: "Pika Jumpa",
+            description: "Play as a Pokémon character, dodge obstacles, all while enjoying the nostalgic pixel art and thrilling gameplay powered by JavaScript, HTML, and CSS..",
             imgUrl: projImg4,
         },
         {
-            title: "Pokedex 101",
-            description: "An application that uses the Pokemon API displays all the Pokemon in a styled Pokedex, providing users with an interactive and engaging platform for exploring and learning about different Pokemon.",
+            title: "Day & Night Weather App",
+            description: "Experience weather forecasting with a twist in our Naruto-themed weather app. Stay informed about the current weather conditions, get accurate forecasts, and embark on a ninja-inspired journey while exploring the immersive UI designed with JavaScript, HTML, and CSS, and enriched by real-time weather data from the Weather API",
             imgUrl: projImg5,
         },
         {
-            title: "Studio City Narutofied",
-            description: "An application created with the Google Maps API is a location-based platform that provides users with custom features and functionalities based on a specific theme(Naruto). ",
+            title: "JUST DO IT",
+            description: "Stay organized and boost your productivity with our sleek and customizable todo app. With its modern interface built using JavaScript, HTML, and customizable CSS, you can easily manage tasks, set reminders, and achieve your goals in style. ",
             imgUrl: projImg6,
         },
     ];

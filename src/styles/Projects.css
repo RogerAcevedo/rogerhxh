@@ -127,3 +127,8 @@
   z-index: -4;
 }
 
+.project img {
+  height: 20rem;
+  width: 100%;
+
+}
